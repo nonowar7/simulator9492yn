@@ -1,0 +1,5 @@
+חלוקת תפקידים:
+
+יובל - mult , plus , number, commands - open classes, 
+
+נועם - interface expression, *divide 0, divide, minus, command parser
