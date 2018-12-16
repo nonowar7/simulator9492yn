@@ -1,5 +1,5 @@
-ημεχϊ ϊτχιγιν:
+Χ—ΧΧ•Χ§Χª ΧªΧ¤Χ§Χ™Χ“Χ™Χ. 
 
-ιεαμ - mult , plus , number, commands - open classes, 
+Χ™Χ•Χ‘Χ - mult , plus , number, commands - open classes, 
 
-πεςν - interface expression, *divide 0, divide, minus, command parser
+Χ Χ•ΧΆΧ - interface expression, *divide 0, divide, minus, command parser
