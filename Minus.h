@@ -1,25 +1,17 @@
-
-
 #ifndef SIMULATOR9492YN_MINUS_H
 #define SIMULATOR9492YN_MINUS_H
-
-#include <list>
-#include <string>
 
 #include "BinaryExpression.h"
 
 
-using namespace std;
-
 class Minus : public BinaryExpression {
-
 public:
-
     // constructor - uses super class constructor
-    Minus(Expression* exp1, Expression* exp2);
-
-    double calculate() override;
-
+    Minus(Expression* leftExp, Expression* rightExp):BinaryExpression(leftExp,rightExp){}
+    double calculate() override{
+        return this->getLeftExp()->calculate() - this->getRightExp()->calculate();
+    }
 };
 
 #endif //SIMULATOR9492YN_MINUS_H
+

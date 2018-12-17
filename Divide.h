@@ -1,25 +1,19 @@
-
-
 #ifndef SIMULATOR9492YN_DIVIDE_H
 #define SIMULATOR9492YN_DIVIDE_H
 
-#include <list>
-#include <string>
-
 #include "BinaryExpression.h"
 
-using namespace std;
-
-
 class Divide : public BinaryExpression {
-
 public:
-
     // constructor - uses super class constructor
-    Divide(Expression* exp1, Expression* exp2);
+    Divide(Expression* leftExp, Expression* rightExp):BinaryExpression(leftExp,rightExp){}
 
-    double calculate() override;
-
+    double calculate() override{
+        if(this->getRightExp()->calculate() == 0){
+            throw "cannot divide by 0";
+        }
+        return this->getLeftExp()->calculate() / this->getRightExp()->calculate();
+    }
 };
 
 #endif //SIMULATOR9492YN_DIVIDE_H

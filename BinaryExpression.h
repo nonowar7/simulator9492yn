@@ -1,30 +1,26 @@
-
-
 #ifndef SIMULATOR9492YN_BINARYEXPRESSION_H
 #define SIMULATOR9492YN_BINARYEXPRESSION_H
 
-#include <list>
-#include <string>
-
 #include "Expression.h"
 
-using namespace std;
-
-// BinaryExpression is abstract
+// BinaryExpression is abstract class
 class BinaryExpression : public Expression{
 private:
-
-    Expression* ex1;
-    Expression* ex2;
-
+    Expression* leftExp;
+    Expression* rightExp;
 public:
-
     // constructor
-    BinaryExpression(Expression* exp1, Expression* exp2);
-
+    BinaryExpression(Expression* left, Expression* right){
+        this->leftExp = left;
+        this->rightExp = right;
+    }
     // getters
-    Expression* getExpression1() const;
-    Expression* getExpression2() const;
+    Expression* getLeftExp() const{
+        return this->leftExp;
+    }
+    Expression* getRightExp() const{
+        return this->rightExp;
+    }
 
     /*
      * out put - a double
@@ -32,8 +28,6 @@ public:
      * by the right expression
      */
     virtual double calculate()=0;
-
-
 };
 
 #endif //SIMULATOR9492YN_BINARYEXPRESSION_H
