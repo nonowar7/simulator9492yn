@@ -4,4 +4,4 @@ project(simulator9492yn)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(simulator9492yn
-        main.cpp)
+        main.cpp Expression.cpp BinaryExpression.cpp Minus.cpp Divide.cpp Num.cpp)
