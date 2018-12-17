@@ -2,7 +2,7 @@
 
 יובל - mult(done) , plus , number, commands - open classes, 
 
-נועם - interface expression(done), BinaryExpression (done) , divide(done), minus(done), command parser
+נועם - interface expression(done), BinaryExpression (done) , divide(done), minus(done), command parser, shunting yard
 
 כללי - NOT, WHILE, ALGORITHEM, LEXER, PARSER, SERVER + CLIENT. 
 DONE - 
