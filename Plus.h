@@ -12,8 +12,4 @@ public:
     }
 };
 
-
-
-
-
 #endif //SIMULATOR9492YN_PLUS_H
