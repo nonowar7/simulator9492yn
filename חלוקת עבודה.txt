@@ -1,8 +1,9 @@
 חלוקת תפקידים. 
 
-יובל - mult(done) , plus , number, commands - open classes, 
+יובל - commands interface +  open classes, 
 
-נועם - interface expression(done), BinaryExpression (done) , divide(done), minus(done), command parser, shunting yard
+נועם - command parser, shunting yard
 
 כללי - NOT, WHILE, ALGORITHEM, LEXER, PARSER, SERVER + CLIENT. 
-DONE - 
+
+DONE - mult,plus,number,interface expression, BinaryExpression,divide, minus 
