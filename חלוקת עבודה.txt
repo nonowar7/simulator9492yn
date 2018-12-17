@@ -1,8 +1,8 @@
 חלוקת תפקידים. 
 
-יובל - commands interface +  open classes, 
+יובל - commands interface +  open classes,command parser, 
 
-נועם - command parser, shunting yard
+נועם -  shunting yard
 
 כללי - NOT, WHILE, ALGORITHEM, LEXER, PARSER, SERVER + CLIENT. 
 
