@@ -2,7 +2,7 @@
 
 יובל - commands interface +  open classes,command parser, 
 
-נועם -  shunting yard, NOT
+נועם -  shunting yard, NOT, var
 
 כללי - WHILE, LEXER, PARSER, SERVER + CLIENT. 
 
