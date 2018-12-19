@@ -4,6 +4,10 @@
 
 נועם -  shunting yard, NOT, var
 
-כללי - WHILE, LEXER, PARSER, SERVER + CLIENT. 
+כללי - WHILE, PARSER, SERVER + CLIENT. 
+
+**LEXER 
+הלקסר כרגע לא תומך בפסיקים, כן תומך בסוגריים. בנוסף, לא תומך בהכנסת רווחים לביטויים כמו var x=5+3.
+אדבר היום עם אלי על הנושא כי יש יותר מדי סתירות בין ההוראות להבהרות!!
 
 DONE - mult,plus,number,interface expression, BinaryExpression,divide, minus 
