@@ -2,12 +2,19 @@
 
 יובל - commands interface +  open classes,command parser, 
 
-נועם -  shunting yard, NOT, var
+נועם - while, if 
 
-כללי - WHILE, PARSER, SERVER + CLIENT. 
+כללי - PARSER, SERVER + CLIENT. 
+
+DONE - mult,plus,number,interface expression, BinaryExpression,divide, minus , var, Neg, UnaryExpresson , ShuntingYard
+
 
 **LEXER 
 הלקסר כרגע לא תומך בפסיקים, כן תומך בסוגריים. בנוסף, לא תומך בהכנסת רווחים לביטויים כמו var x=5+3.
 אדבר היום עם אלי על הנושא כי יש יותר מדי סתירות בין ההוראות להבהרות!!
 
-DONE - mult,plus,number,interface expression, BinaryExpression,divide, minus 
+
+
+****
+הוספתי כמה מחלקות, אם בא לך להסתכל באלגוריתם ולהריץ קצת דברים אני אשמח למרות שעשיתי בדיקות די רחבות.
+נדבר היום אני אתחבר למה שאת עושה ואקח משימות 
