@@ -1,0 +1,22 @@
+main for the lexer: 
+
+#include <iostream>
+#include "Expression.h"
+#include "Lexer.h"
+
+int main() {
+    Lexer* lexer = new Lexer;
+    string line;
+    bool flag = true;
+    cout << "insert line" <<endl;
+    while (flag) {
+        getline(cin, line);
+        if (!line.empty()) {
+           lexer->setLine(line);
+           lexer->lexicalAnalysis();
+        } else{
+            flag = false;
+        };
+    }
+    return 0;
+}
